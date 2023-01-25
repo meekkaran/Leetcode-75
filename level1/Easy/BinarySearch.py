@@ -7,7 +7,7 @@ class Solution:
             mid = (l+r)//2
             if target == nums[mid]:
                 return mid
-            elif target > mid:
+            elif target > nums[mid]:
                 l = mid +1
             else:
                 r = mid - 1
